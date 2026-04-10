@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.location.replace(
+        '/' + window.location.pathname.split('/').slice(1).join('/').replace(/&/g, '?').replace(/%2C/g, ',')
+      );
+    </script>
+  </head>
+</html>
